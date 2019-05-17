@@ -1,0 +1,137 @@
+{
+  "manifest_version": "react_1.1",
+	"meta": {
+		"name": "React Start Template",
+		"description": "React 16.8.1 Starter Template"
+	},
+	"settings": {
+		"fieldMappings": [
+			{
+				"type": "text",
+				"label": "List Item",
+				"key": "list_item"
+			}
+		],
+		"slide": [
+			{
+				"type": "select",
+				"label": "Orientation",
+				"key": "orientation",
+				"options": [
+					{
+						"label": "Horizontal",
+						"value": "horizontal"
+					}
+				],
+				"defaultValue": "horizontal"
+			}
+		],
+		"page": [
+			{
+				"type": "tab",
+				"label": "Data",
+				"key": "data",
+				"children": [
+					{
+						"type": "text",
+						"label": "Title",
+						"key": "title"
+					},
+					{
+						"type": "text",
+						"label": "Sub Title",
+						"key": "sub_title"
+					},
+					{
+						"type": "text",
+						"label": "Footer",
+						"key": "footer"
+					}
+				]
+			},
+			{
+				"type": "tab",
+				"label": "Filters",
+				"key": "filters"
+			},
+
+		{
+			"type": "tab",
+			"label": "Style",
+			"key": "style",
+			"children": [
+				{
+					"type": "select",
+					"label": "Font Size",
+					"key": "fontSize",
+					"options": [
+						{
+							"label": "Small",
+							"value": "small"
+						},
+						{
+							"label": "Medium",
+							"value": "medium"
+						},
+						{
+							"label": "Large",
+							"value": "large"
+						}
+					],
+					"defaultValue": "medium"
+				},
+				{
+					"type": "group",
+					"label": "Colors",
+					"key": "colors",
+					"children": [
+						{
+							"type": "color",
+							"label": "Background",
+							"key": "background",
+							"defaultValue": "rgba(255, 255, 255, 1)"
+						},
+						{
+							"type": "color",
+							"label": "Background2",
+							"key": "background2",
+							"defaultValue": "rgba(213, 34, 221, 0.5)"
+						},
+						{
+							"type": "color",
+							"label": "Main Text Color",
+							"key": "mainTextColor",
+							"defaultValue": "rgba(245, 227, 178, 1.0)"
+						},
+						{
+							"type": "color",
+							"label": "Alt Text Color",
+							"key": "altTextColor",
+							"defaultValue": "rgba(221, 23, 38, 1.0)"
+						}
+					]
+				},
+				{
+					"type": "group",
+					"label": "Images",
+					"key": "images",
+					"children": [
+						{
+							"type": "image",
+							"label": "Background",
+							"key": "background",
+							"defaultValue": "assets/images/background.png"
+						},
+						{
+							"type": "image",
+							"label": "Logo",
+							"key": "logo",
+							"defaultValue": "assets/images/logo.png"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+}
